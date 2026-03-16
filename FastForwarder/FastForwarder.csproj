@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <RootNamespace>Shapez2Mods.FastForwarder</RootNamespace>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Shapez2Dir>C:\Program Files (x86)\Steam\steamapps\common\shapez 2</Shapez2Dir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(Shapez2Dir)\BepInEx\core\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>$(Shapez2Dir)\BepInEx\core\BepInEx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SPZGameAssembly">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\SPZGameAssembly.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Core">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Game.Core">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\Game.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Game.Core.Simulation">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\Game.Core.Simulation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Game.Orchestration">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\Game.Orchestration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
