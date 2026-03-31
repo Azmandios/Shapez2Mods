@@ -43,6 +43,14 @@
       <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\Game.Orchestration.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>$(Shapez2Dir)\shapez 2_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>

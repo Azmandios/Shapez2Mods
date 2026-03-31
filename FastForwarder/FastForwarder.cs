@@ -6,7 +6,7 @@ using Shapez2Mods.FastForwarder.UI;
 
 namespace Shapez2Mods.FastForwarder
 {
-    [BepInPlugin("yujis.shapez2mods.fastforwarder", "Fast Forwarder", "1.0.0")]
+    [BepInPlugin("yujis.shapez2mods.fastforwarder", "Fast Forwarder", "1.0.5")]
     public class FastForwarder : BaseUnityPlugin
     {
         internal static FastForwarder Instance = null!;
